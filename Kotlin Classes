@@ -1,0 +1,9 @@
+val c1 = Car
+
+c1.brand = "Bugatti"
+c1.model = "La Voiture Noire"
+c1.year = 2019
+
+println(c1.brand)
+println(c1.model)
+println(c1.year)
