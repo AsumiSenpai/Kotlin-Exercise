@@ -1,0 +1,14 @@
+open class MyParentClass {
+  val x = 16
+}
+
+class MyChildClass: MyParentClass() {
+  fun myFunction() {
+    println(x) // x is now inherited from the superclass
+  }
+}
+
+fun main() {
+  val myObj = MyChildClass()
+  myObj.myFunction()
+}
