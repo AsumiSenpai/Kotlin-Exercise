@@ -1,0 +1,7 @@
+class Car(var brand: String, var model: String, var year: Int)
+
+fun main() {
+  val c1 = Car("Bugatti", "Chiron", 2018)
+  val c2 = Car("BMW", "X6", 2020)
+  val c3 = Car("Tesla", "Model S", 2020)
+}
